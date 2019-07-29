@@ -1,0 +1,35 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: rgb(186, 185, 185);
+}
+
+#viewport{
+  padding-top: 2%
+}
+#grid {
+  width: 720px;
+  height: 720px;
+  background: white;
+  margin: auto;
+  display: flex; 
+  flex-wrap: wrap;
+}
+
+.square{
+  height: 120px;
+  width: 120px;
+  border: 1px solid black;
+}
+
+.green{
+  background: green;
+}
+
+.yellow{
+  background: yellow;
+}
