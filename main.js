@@ -1,6 +1,6 @@
 $(document).ready(function () {
 
-  var url = "https://flynn.boolean.careers/exercises/api/array/integers?min=1&max=9&items=1";
+  var url = "https://flynn.boolean.careers/exercises/api/random/int";
 
 
   //genero la griglia
@@ -28,7 +28,7 @@ $(document).ready(function () {
         method: "GET",
         success: function(data){
           
-          var myNum = data.response[0];
+          var myNum = data.response;
           if (myNum <= 5){
             questo.addClass("yellow");
           } else if (myNum > 5 ){
