@@ -34,7 +34,8 @@ $(document).ready(function () {
           } else if (myNum > 5 ){
             questo.addClass("green");
           }
-    
+
+          questo.text(myNum);
         },
         error: function(req, state, err){
           alert("Qualcosa è andato storto");

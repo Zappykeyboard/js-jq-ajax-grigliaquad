@@ -24,6 +24,8 @@ body{
   height: 120px;
   width: 120px;
   border: 1px solid black;
+  text-align: center;
+  font-size: 5rem;
 }
 
 .green{
